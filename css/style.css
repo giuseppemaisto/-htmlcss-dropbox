@@ -181,6 +181,7 @@ li{
 }
 .col-100-button{
     width: 30%;
+    margin-top: 30px;
 }
 .col-text{
     margin-left: 10px;
@@ -194,4 +195,31 @@ li{
     padding: 10px 20px;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.col-50-main-img{
+    width: 65%;
+    border: 1px solid black;
+}
+.col-50-main-text{
+    width: 35%;
+    border: 1px solid black;
+    padding: 15px;
+}
+.container-main-center{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 100px;
+    
+}
+.partner{
+    width: 100%;
+    object-fit: fill;
+}
+.span-main{
+    font-size: 20px;
+}
+.button-main{
+    padding: 10px;
+    margin-top: 40px;
 }
