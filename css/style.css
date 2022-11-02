@@ -26,16 +26,17 @@ header{
     width: 33%;
     display: flex;
 }
-.list{
+.list, .list-logo{
     list-style-type: none;
     display: flex;
     
 }
-.li-list{
+.li-list, .li-list-logo{
     margin: 10px;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     color: grey;
+    display: flex;
 }
 .logo{
     margin-top: 5px;
@@ -113,6 +114,7 @@ p{
 .testo-piani{
     font-size: 40px;
     text-align: start;
+    font-family: 'Open Sans', sans-serif;
    
 }
 .check{
