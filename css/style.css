@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+   
+
+}
+.container{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+    
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-25{
+    height: 50px;
+    width: 33%;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+li{
+margin: 10px;
+font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+color: grey;
+}
+.logo{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.inizia{
+    color: white;
+    background-color: blue;
+   padding-left: 15px;
+   padding-right: 15px;
+   height: 50%;
+   margin-top: 10px;
+   border: none;
+}
