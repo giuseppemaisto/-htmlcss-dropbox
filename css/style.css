@@ -8,6 +8,7 @@ header{
     height: 50px;
     width: 100%;
     background-color: white;
+  
 }
 .container{
     width: 95%;
@@ -57,7 +58,7 @@ li{
 .background-jumbo{
     background-color: rgb(163, 193, 204);
     width: 100%;
-    height: 600px;
+    
 }
 .container-main{
     width: 70%;
@@ -98,4 +99,43 @@ p{
     position: relative;
     top: 70px;
 
+}
+.container-plans{
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    
+}
+
+.piani{
+    margin-top: 100px;
+}
+.testo-piani{
+    font-size: 40px;
+    text-align: start;
+   
+}
+.check{
+    margin-top: 80px;
+   font-size: 20px;
+   display: flex;
+}
+.check-annuale{
+    margin-left: 30px;
+}
+.row-plans{
+     display: flex;
+     justify-content: space-between;
+}
+.col-20{
+    width: calc(100% / 3 - 30px);
+    height: 500px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.col-20-titolo{
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: 15px;
 }
