@@ -45,7 +45,8 @@ header{
 
 .inizia{
     color: white;
-    background-color: blue;
+    background-color: rgb(78, 78, 224);
+    font-family: 'Open Sans', sans-serif;
     padding-left: 15px;
     padding-right: 15px;
     height: 50%;
@@ -82,7 +83,8 @@ p{
 .button-jumbo{
     color: white;
     font-size: 20px;
-    background-color: rgb(63, 63, 251);
+    background-color: rgb(78, 78, 224);
+    font-family: 'Open Sans', sans-serif;
     padding: 10px;
     margin-top: 40px;
 }
@@ -247,4 +249,92 @@ li{
 .col-33-text p{
     font-size: 18px;
     margin-top: 10px;
+}
+.text-drop-business{
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.background-square{
+    width: 100%;
+    
+}
+.row-square{
+    display: flex;
+    margin-top: 200px;
+}
+.col-33-square{
+    height: 450px;
+    width: calc(100% / 3);
+    background-color: brown;
+    
+    display: flex;
+   
+}
+.row-col-square{
+    width: 50%;
+    height: 100%;
+    
+    
+
+}
+.square{
+    width: 100%;
+    height: 50%;
+    
+}
+.square-designit{
+    background-color: lightgreen;
+    border: 10px solid rgb(255, 255, 255, 0.5);
+}
+.designit{
+    color: white;
+    width: 75%;
+    height: 20%;
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
+.square-florida{
+    background-color:rgb(36, 167, 249);
+}
+.florida{
+    color: white;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 20%;
+}
+.square-arizona{
+    background-color:rgb(83, 23, 23) ;
+}
+.arizona{
+    
+    width: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+.square-topps{
+    background-color: red;
+}
+.topps{
+    width: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    
+}   
+.square-bicycle{
+    background-color: red;
+} 
+.square-lonely{
+    background-color: blue;
+}
+.square-hearts{
+    background-color: aliceblue;
+}
+.square-clear{
+    background-color: yellow;
 }
