@@ -38,6 +38,7 @@ header{
     font-family: 'Open Sans', sans-serif;
     color: grey;
     display: flex;
+    z-index: 3;
 }
 .logo{
     margin-top: 5px;
