@@ -359,6 +359,16 @@ li{
     background-size: 60%;
     color: #fff;
 }
+.central-square{
+    background-color: antiquewhite;
+}
+.central-square img{
+    width: 50%;
+}
+.text-designit p{
+    margin-top: 100px;
+    font-size: 15px;
+}
 .end{
     display: flex;
     justify-content: space-around;
@@ -403,4 +413,41 @@ li{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    height: 600px;
+}
+.container-footer{
+    width: 100%;
+    height: 100%;
+}
+.row-footer{
+    width: 70%;
+    height: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
+    display: flex;
+    padding-top: 20px;
+    
+}
+.col-footer{
+    border: 1px solid black;
+    width: calc(100% / 5);
+    height: 100%;
+    
+}
+.list-footer{
+    margin-left: 20px;
+    font-size: 18px;
+    padding-top: 30px;
+    color: white;
+}
+.lingua{
+    padding-top: 100px;
+    color: white;
+    line-height: 50px;
 }
