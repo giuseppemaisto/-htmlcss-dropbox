@@ -298,43 +298,109 @@ li{
 }
 .square-florida{
     background-color:rgb(36, 167, 249);
+    background-image:  url(../img/university_of_florida.svg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    color: #fff;
+
 }
-.florida{
-    color: white;
-    width: 50%;
-    position: relative;
-    top: 50%;
-    left: 20%;
-}
+
 .square-arizona{
     background-color:rgb(83, 23, 23) ;
+    background-image: url(../img/arizona_state_university.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    color: #fff;
 }
-.arizona{
-    
-    width: 50%;
-    position: relative;
-    top: 25%;
-    left: 25%;
-}
+
 .square-topps{
     background-color: red;
+    background-image: url(../img/topps.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    color: #fff;
 }
-.topps{
-    width: 50%;
-    position: relative;
-    top: 25%;
-    left: 25%;
-    
-}   
+
 .square-bicycle{
     background-color: red;
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    fill: #fff;
+
+   
 } 
+
 .square-lonely{
     background-color: blue;
+    background-image: url(../img/lonely_planet.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    color: #fff;
 }
 .square-hearts{
     background-color: aliceblue;
+    background-image: url(../img/hearst_corp.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    color: #fff;
 }
 .square-clear{
     background-color: yellow;
+    background-image: url(../img/clear_channel.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    color: #fff;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.text-end{
+    max-width: 50%;
+    font-size: 35px;
+    padding: 50px;
+    color: brown;
+}
+.button-end{
+    margin-right: 200px;
+}
+.btn-end{
+    background-color: #fff;
+    color: black;
+    position: relative;
+    top: 50%;
+    border: none;
+}
+.FAQ{
+    width: 100%;
+}
+.container-FAQ{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 100px;
+    
+}
+.row-FAQ{
+    margin-top: 50px;
+}
+.col-FAQ{
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
