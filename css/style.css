@@ -105,28 +105,29 @@ p{
     object-fit: fill;
     position: relative;
     top: 70px;
-
 }
+/*piani prezzi*/
 .container-plans{
     width: 60%;
     height: 100%;
     margin-left: 20%;
-    
 }
-
 .piani{
     margin-top: 100px;
 }
 .testo-piani{
     font-size: 40px;
     text-align: start;
-    font-family: 'Open Sans', sans-serif;
-   
+    font-family: 'Open Sans', sans-serif; 
 }
 .check{
     margin-top: 80px;
    font-size: 20px;
    display: flex;
+}
+.fa-check{
+    color: blue;
+    margin-right: 5px;
 }
 .check-annuale{
     margin-left: 30px;
@@ -150,6 +151,18 @@ p{
     padding-left: 30px;
     padding-top: 30px;
     line-height: 20px;
+}
+.col-20-content h6{
+    color: grey;
+}
+.fa-user{
+    margin-right: 5px;
+}
+.fa-folder{
+    margin-right: 5px;
+}
+.fa-share-nodes{
+    margin-right: 5px;
 }
 ul{
     list-style-type: none;
@@ -175,7 +188,7 @@ li{
     width: 100%;
     border: 1px solid black;
 }
-
+/*enterprise*/
 .enterprise{
     margin-top: 30px;
 }
@@ -205,6 +218,7 @@ li{
     font-family: 'Open Sans', sans-serif;
 }
 
+/*sezione partner*/
 .col-50-main-img{
     width: 65%;
 }
@@ -229,6 +243,7 @@ li{
     padding: 10px;
     margin-top: 40px;
 }
+/*colonne operazioni dropbox business*/
 .row-col-33{
     display: flex;
     flex-wrap: wrap;
@@ -259,7 +274,7 @@ li{
     margin-top: 200px;
     margin-bottom: 50px;
 }
-
+/*quadrati sponsor*/
 .background-square{
     width: 100%;
     
@@ -279,100 +294,142 @@ li{
 .row-col-square{
     width: 50%;
     height: 100%;
-    
-    
-
 }
 .square{
     width: 100%;
     height: 50%;
-    
 }
 .square-designit{
     background-color: lightgreen;
     border: 10px solid rgb(255, 255, 255, 0.5);
+    position: relative;
 }
 .designit{
-    color: white;
     width: 75%;
     height: 20%;
-    position: relative;
+    position: absolute;
     top: 40%;
     left: 10%;
+    filter: invert(1);
 }
 .square-florida{
     background-color:rgb(36, 167, 249);
-    background-image:  url(../img/university_of_florida.svg) ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    color: #fff;
-
+    position: relative;
+}
+.square-florida img{
+    width: 75%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    filter: invert(1);
 }
 
 .square-arizona{
     background-color:rgb(83, 23, 23) ;
-    background-image: url(../img/arizona_state_university.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    color: #fff;
+    position: relative;
+}
+.square-arizona img{
+    width: 75%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    filter: invert(1);
 }
 
 .square-topps{
     background-color: red;
-    background-image: url(../img/topps.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    color: #fff;
+    position: relative;
+}
+.square-topps img{
+    width: 75%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    filter: invert(1);
 }
 
 .square-bicycle{
     background-color: red;
-    background-image: url(../img/world_bicycle_relief.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    fill: #fff;
-
-   
+    position: relative;
 } 
-
+.square-bicycle img{
+    width: 75%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    filter: invert(1);
+}
 .square-lonely{
     background-color: blue;
-    background-image: url(../img/lonely_planet.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    color: #fff;
+    position: relative;
+}
+.square-lonely img{
+    width: 75%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    filter: invert(1);
 }
 .square-hearts{
-    background-color: aliceblue;
-    background-image: url(../img/hearst_corp.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    color: #fff;
+    background-color: rgb(190, 219, 244);
+    position: relative;
+}
+.square-hearts img{
+    width: 75%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    filter: invert(1);
 }
 .square-clear{
-    background-color: yellow;
-    background-image: url(../img/clear_channel.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    color: #fff;
+    background-color: rgb(226, 212, 8);
+    position: relative;
 }
+.square-clear img{
+    width: 75%;
+    height: 40%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    filter: invert(1);
+}
+/*quadrato centrale*/
 .central-square{
-    background-color: antiquewhite;
+    background-color: rgb(232, 223, 223);
+    position: relative;
 }
 .central-square img{
+    position: absolute;
+    top: 40px;
+    left: 30px;
     width: 50%;
 }
-.text-designit p{
-    margin-top: 100px;
-    font-size: 15px;
+.central-square hr{
+    position: absolute;
+    top:30%;
+    left: 10%;
+    width: 25%;
+    color: gray;
 }
+.text-designit p{
+    position: absolute;
+    top: 35%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 15px 0 15px;
+}
+.text-designit-name{
+    width: 75%;
+    position: absolute;
+    top: 70%;
+}
+/*parte finale tasto "inizia prova gratuita"*/
 .end{
     display: flex;
     justify-content: space-around;
@@ -396,6 +453,7 @@ li{
     top: 50%;
     border: none;
 }
+/*FAQ*/
 .FAQ{
     width: 100%;
 }
@@ -418,7 +476,7 @@ li{
     justify-content: space-between;
     padding: 20px;
 }
-
+/*INIZIO FOOTER*/
 footer{
     width: 100%;
     background-color: black;
@@ -449,9 +507,18 @@ footer{
     font-size: 18px;
     padding-top: 30px;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.list-footer span{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+li{
+    line-height: 10px;
+    font-size: 15px;
 }
 .lingua{
     padding-top: 100px;
-    color: white;
+    color: lightgray;
     line-height: 50px;
 }
