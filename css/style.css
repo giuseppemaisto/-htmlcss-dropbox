@@ -476,6 +476,18 @@ li{
     justify-content: space-between;
     padding: 20px;
 }
+.button-hover{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.panel{
+    display: none;
+}
+.col-FAQ:hover .panel{
+    display: block;
+}
 /*INIZIO FOOTER*/
 footer{
     width: 100%;
